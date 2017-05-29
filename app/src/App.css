@@ -1,0 +1,31 @@
+html, body, body>div {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  height: inherit;
+  overflow-y: hidden;
+}
+
+.App-header {
+  background-color: #ed145b;
+  padding: 20px;
+  color: white;
+}
+
+.App-content {
+  font-size: large;
+  background-image: linear-gradient(-180deg, #ed145b, #8e86e8);
+  height: 100%;
+}
+
+.App-controls {
+  margin-top: 50px;
+  height: 200px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.App-controls:hover {
+  transform: scale(1.2);
+}
